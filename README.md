@@ -30,19 +30,20 @@ Built using Hugging Face Transformers with a Flask backend and an interactive HT
 ```
 
 ai-study-helper/
-│
 ├── app.py                  # Main Flask application
 ├── requirements.txt        # Python dependencies
+├── README.md               # Project documentation
 │
-├── templates/
+├── templates/              # HTML templates
 │   ├── index.html          # Main interface
 │   └── result.html         # Study guide result page (optional)
 │
-├── static/
+├── static/                 # Static files
 │   ├── style.css           # Custom styles
 │   └── app.js              # Frontend logic
 │
-└── README.md               # Project documentation
+└── screenshots/            # Project screenshots (for README)
+└── interface.png
 
 ````
 
@@ -91,9 +92,13 @@ Then open your browser and go to:
 ```
 http://127.0.0.1:5000
 ```
+
+---
+
 ## 📸 Screenshots
 
-### 📝 interface
+### 📝 Interface
+
 ![Interface Screenshot](screenshots/interface.png)
 
 ---
@@ -104,14 +109,6 @@ http://127.0.0.1:5000
 * Teachers creating quizzes from content
 * Study platforms offering AI assistance
 * Personal learning automation
-
----
-
-## 📜 License
-
-MIT
-
----
 
 ## 📬 Contact
 
