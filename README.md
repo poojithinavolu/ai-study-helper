@@ -24,7 +24,7 @@ Built using Hugging Face Transformers with a Flask backend and an interactive HT
   - `random` (for quiz generation)
 
 ---
-
+```
 ## 📁 File Structure
 
 ```
@@ -45,7 +45,7 @@ ai-study-helper/
 └── screenshots/            # Project screenshots (for README)
 └── interface.png
 
-````
+```
 
 ---
 
