@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generated Study Guide</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Your Personalized Study Guide</h1>
+
+    <h2>Summary:</h2>
+    <p>{{ summary }}</p>
+
+    <h2>Key Terms:</h2>
+    <ul>
+        {% for term in key_terms %}
+            <li>{{ term }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Practice Question:</h2>
+    <p>{{ practice_question }}</p>
+
+    <br>
+    <a href="/">Generate another study guide</a>
+</body>
+</html>
