@@ -98,7 +98,7 @@ http://127.0.0.1:5000
 ## 📸 Screenshots
 
 ### 📝 interface
-!(Screenshot 2025-05-15 232211.png)
+!(Screenshot%2025-05-15%232211.png)
 ---
 
 ## 🧠 Use Cases
