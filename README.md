@@ -1,7 +1,3 @@
-Here is your improved, professional, and minimal `README.md` — with no extra explanations or fluff:
-
----
-
 ```markdown
 # 📚 AI Study Helper
 
